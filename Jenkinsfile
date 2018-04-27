@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Initialixe') {
       steps {
-        echo 'Hello World'
+        sh 'python --version'
       }
     }
   }
