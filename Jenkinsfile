@@ -6,7 +6,7 @@ pipeline {
     
   }
   stages {
-    stage('Initialixe') {
+    stage('build') {
       steps {
         sh 'python --version'
       }
